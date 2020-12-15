@@ -18,6 +18,7 @@ WidgetLED orange(V2);
 WidgetLED red(V3);
 
 /*
+ V1,V2,V3 for LED Widgets on Blynk Cloud App
  V5 for Gauge Widget
  v6 for Webhook widget to trigger URL for Dustbin Full event
  V7 for Webhook widget to trigger URL for Dustbin about to filled event
@@ -76,6 +77,7 @@ void loop()
     delay(300);
   } 
 }
+
 
 BLYNK_READ(V5) //Shows Level on Gauge Widget
 {
